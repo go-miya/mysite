@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    博客|错误
+{% endblock %}
+
+
+{% block nav_home_active1 %}active{% endblock %}
+
+{% block content %}
+    {{ message }}, <a href="{{ redirect_to }}">返回</a>
+{% endblock %}
